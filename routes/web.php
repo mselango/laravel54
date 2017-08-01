@@ -45,3 +45,5 @@ Route::get('/insert-users',function()
 });
 
 Route::get('/cache-users', 'CacheController@getUsers');
+
+Route::get('/trigger-event','EventController@triggerEvent');
